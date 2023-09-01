@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+
+.hero {
+    background-color: #3993CA;
+    text-align: center;
+}
+
+.logo-principal {
+    width: 15%;
+    padding-bottom: 40px;
+}
+
+.slogan {
+    text-align: center;
+}
+
+.slogan p {
+    font-size: 2em;
+}
+
+.slogan a {
+    background-color: green;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+
+}
+
+.contenu {
+    background-image: url(icon-4828765_1280.webp);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.contenu div {
+    background-color: #3993CA;
+    width: 80%;
+    text-align: center;
+    border-radius: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 3px solid #fff;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.newsletter {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.5em;
+    font-variant: small-caps;
+    color: gray;
+    margin-right: 15px;
+}
+
+nav a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 768px){
+    .logo-principal {
+        width: 30%;
+    }
+    .contenu {
+        display: flex;
+
+    }
+
+    .contenu div {
+        width: 35%;
+
+    }
+    } 
+
+@media screen and (max-width: 767px) {
+    .contenu div {
+        margin: auto;
+        margin-top: 5px;
+    }
+    
+}   
